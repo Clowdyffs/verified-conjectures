@@ -1,0 +1,20 @@
+{
+  "title": "The proposed Hessenberg matrix attains the maximum at subdiagonal two",
+  "problem": "Question 2 of Keating and Keleş (2020)",
+  "statement": "Section 6, Question 2",
+  "source": "J. P. Keating and A. A. Keleş, Maximum Absolute Determinants of Upper Hessenberg Bohemian Matrices, arXiv:2003.00454v2 (2020), p. 21, doi:10.48550/arXiv.2003.00454",
+  "posed": "2020",
+  "kind": "proof",
+  "status": "ready",
+  "verification": "lean-complete",
+  "lean": "KeatingKeles.question_two",
+  "lean_module": "Conjectures.KeatingKeles",
+  "lean_tree": "9d175d1287af1e0e1a53e573de6437db547132f2",
+  "lean_root_blob": "7616c55859f1fd3bf2f48f3248a0136505d4a4de",
+  "toolchain": "leanprover/lean4:v4.35.0",
+  "solved": "2026-11-25",
+  "solved_commit": "b537f77f8f0f2ee6e136df771abf3ecaf5341f7b",
+  "novelty_checked": "2026-11-25",
+  "announced": null,
+  "arxiv": null
+}

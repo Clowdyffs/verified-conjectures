@@ -1,6 +1,6 @@
 name = "conjectures"
 version = "0.1.0"
-defaultTargets = ["Conjectures.NearHadamard"]
+defaultTargets = ["Conjectures.KeatingKeles", "Conjectures.NearHadamard"]
 
 [[require]]
 name = "mathlib"

@@ -20,6 +20,7 @@ Only finished work appears here. A result is listed after it meets every [solve 
 
 | Problem | Result | Answer | Checked by | Solved (UTC) | Details |
 | :--- | :--- | :---: | :--- | :---: | :--- |
+| **[Question 2 of Keating and Keleş (2020)](results/keating-keles-hessenberg/)**<br><sub>Section 6, Question 2</sub> | The proposed Hessenberg matrix attains the maximum at subdiagonal two | **True** | Lean, complete | 2026-11-25 | [Proof](results/keating-keles-hessenberg/PROOF.md) · [Lean statement](lean/Conjectures/KeatingKeles/Statement.lean) · [Audit](results/keating-keles-hessenberg/AUDIT.md) · [Replay](results/keating-keles-hessenberg/verify.sh) |
 | **[Problem 7.1 of Momihara, Suda and Xiang (2022), four-fifths question](results/momihara-suda-xiang-determinant/)**<br><sub>Restated as Problem 15 of Egan, Kotsireas, London and Ó Catháin (2026)</sub> | The four-fifths bound holds for three near-Hadamard families | **True** | Lean, complete | 2026-11-25 | [Proof](results/momihara-suda-xiang-determinant/PROOF.md) · [Lean statement](lean/Conjectures/NearHadamard/Statement.lean) · [Audit](results/momihara-suda-xiang-determinant/AUDIT.md) · [Replay](results/momihara-suda-xiang-determinant/verify.sh) |
 <!-- results:end -->
 
