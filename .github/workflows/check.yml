@@ -1,0 +1,48 @@
+name: check
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      replay:
+        description: "Also run the full Lean replay (needs a runner with more than 24 GB of RAM)"
+        type: boolean
+        default: false
+      runner:
+        description: "Runner label for the full replay"
+        type: string
+        default: ubuntu-latest
+
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Structural checks
+        run: python3 scripts/collection.py check --release
+
+  replay:
+    if: github.event_name == 'workflow_dispatch' && inputs.replay
+    needs: structure
+    runs-on: ${{ inputs.runner }}
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install elan
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Replay every result
+        run: ./verify.sh
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verify-logs
+          path: verify-logs/

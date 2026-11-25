@@ -1,0 +1,20 @@
+{
+  "title": "The four-fifths bound holds for three near-Hadamard families",
+  "problem": "Problem 7.1 of Momihara, Suda and Xiang (2022), four-fifths question",
+  "statement": "Restated as Problem 15 of Egan, Kotsireas, London and Ó Catháin (2026)",
+  "source": "Linear Algebra and its Applications 654 (2022), 28–55, Theorem 1.6 and §7, doi:10.1016/j.laa.2022.08.028. Restated in arXiv:2610.27175v2, §5.6.",
+  "posed": "2022",
+  "kind": "proof",
+  "status": "verified",
+  "verification": "lean-complete",
+  "lean": "NearHadamard.problem15",
+  "lean_module": "Conjectures.NearHadamard",
+  "lean_tree": "32381d511d037cc59b3b8b1fda5c618df618e7b2",
+  "lean_root_blob": "88e881e7f79e13fac9bac0e1fc37d13aa50d5c71",
+  "toolchain": "leanprover/lean4:v4.35.0",
+  "solved": "2026-11-25",
+  "solved_commit": "df7104831195e4d404090392b0dc596c41e17c10",
+  "novelty_checked": "2026-11-25",
+  "announced": null,
+  "arxiv": null
+}

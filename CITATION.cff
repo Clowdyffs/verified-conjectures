@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use these results, please cite this repository and the original source of each problem."
+title: "verified-conjectures: machine-checked resolutions of published conjectures"
+type: software
+authors:
+  - name: "Clowdyffs"
+repository-code: "https://github.com/Clowdyffs/verified-conjectures"
+license: "Apache-2.0"
+keywords:
+  - Lean 4
+  - mathlib
+  - formal verification
+  - conjectures

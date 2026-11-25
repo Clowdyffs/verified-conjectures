@@ -1,0 +1,12 @@
+verified-conjectures
+Copyright 2026 Clowdyffs
+
+Lean source files, shell scripts and Python scripts in this repository are
+licensed under the Apache License, Version 2.0; see LICENSE.
+
+Markdown documents, including every README.md, PROOF.md and AUDIT.md, are
+licensed under the Creative Commons Attribution 4.0 International licence
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Quotations of published problem statements remain the property of their
+authors and publishers and are reproduced for identification and commentary.
