@@ -33,7 +33,7 @@ The authors specify “the case $s=2$ and $t=1$” and ask:
 
 > Is $U_n^{(rc)}$ the maximizing matrix in this case when $n\ge4$?
 
-Question 2 appears in the concluding remarks of both the March 1 and May 9, 2020 preprints. The source's objective is the absolute determinant. Its maximizing-matrix definition permits ties. The theorem covers all entries in the closed real interval, including the binary corners. The more general question about varying $s/t$ remains open in other regimes. [Original, v2, p. 21](https://arxiv.org/pdf/2003.00454v2#page=21) · [Definition of a maximizing matrix, p. 8](https://arxiv.org/pdf/2003.00454v2#page=8)
+Question 2 appears in the concluding remarks of both the March 1 and May 9, 2020 preprints. The source's objective is the absolute determinant. Its maximizing-matrix definition permits ties. The theorem covers all entries in the closed real interval, including the binary corners. The [companion result on Question 1](../keating-keles-transitions/README.md) gives the sharp maximum and every maximizing matrix as the positive ratio varies. [Original, v2, p. 21](https://arxiv.org/pdf/2003.00454v2#page=21) · [Definition of a maximizing matrix, p. 8](https://arxiv.org/pdf/2003.00454v2#page=8)
 
 ## Verify
 

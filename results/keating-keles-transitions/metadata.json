@@ -1,0 +1,20 @@
+{
+  "title": "Transition forms for maximum absolute upper Hessenberg determinants",
+  "problem": "Keating and Keleş, upper Hessenberg determinant transition forms",
+  "statement": "Section 6, Question 1, for all positive parameters in Problem 2.4",
+  "source": "J. P. Keating and A. A. Keleş, Maximum Absolute Determinants of Upper Hessenberg Bohemian Matrices, arXiv:2003.00454v2 (2020), §6, pp. 20–21, doi:10.48550/arXiv.2003.00454",
+  "posed": "2020",
+  "kind": "proof",
+  "status": "ready",
+  "verification": "lean-complete",
+  "lean": "HessenbergTransitions.resolution",
+  "lean_module": "Conjectures.KeatingKelesTransitions",
+  "lean_tree": "d8b0fe6ffc7ee2a968ca2a01ef319a09cf06ca8f",
+  "lean_root_blob": "ab9450e9144b898f39f712e6641a1c02c8501880",
+  "toolchain": "leanprover/lean4:v4.35.0",
+  "solved": "2026-11-25",
+  "solved_commit": "1fa1359902b8ade6c5f3b1d333a05fe9e85323e8",
+  "novelty_checked": "2026-11-25",
+  "announced": null,
+  "arxiv": null
+}
