@@ -1,0 +1,20 @@
+{
+  "title": "Sharp normalized determinants in Classes (4), (5) and (6)",
+  "problem": "Problem 7.1 of Momihara, Suda and Xiang (2022), sharp uniform normalized lower bounds",
+  "statement": "Problem 7.1, first sentence, with the normalization and second domain of its second sentence",
+  "source": "Linear Algebra and its Applications 654 (2022), 28–55, doi:10.1016/j.laa.2022.08.028",
+  "posed": "2022",
+  "kind": "proof",
+  "status": "ready",
+  "verification": "lean-complete",
+  "lean": "NearHadamard.Optimal.sharpLowerBounds",
+  "toolchain": "leanprover/lean4:v4.35.0",
+  "lean_tree": "2f81050330c94a6e902f3a9b114df7662fc71d19",
+  "lean_root_blob": "028184f0e517cea9f4c5e19aa77016f9e9b3d1f2",
+  "solved_commit": "7496df6f445f526e0d62309bcc0c96d65ad5bd65",
+  "lean_module": "Conjectures.NearHadamardSharp",
+  "solved": "2026-11-25",
+  "novelty_checked": "2026-11-25",
+  "announced": null,
+  "arxiv": null
+}

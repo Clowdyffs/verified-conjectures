@@ -2,6 +2,14 @@
 
 ## 2026-11-25
 
+Reviewed priority and release preparation for the [sharp near-Hadamard bounds](results/momihara-suda-xiang-sharp-bounds/README.md). Added credit for Lin–Phoa and the Turyn–Whiteman antecedents of Class (4), distinguished the previous four-fifths result, and supplied the required FLINT dependency in the release instructions and manual workflow. The exact certificate, numerical replay and axiom checks passed again.
+
+Cleared the [sharp near-Hadamard bounds](results/momihara-suda-xiang-sharp-bounds/README.md) for announcement. The clean proof replay passed, and the source and publication drafts incorporate both fresh-context internal reviews. Solve commit `7496df6f445f526e0d62309bcc0c96d65ad5bd65`. Publication timing is the user’s decision.
+
+Verified the sharp uniform lower bounds in Problem 7.1 of Momihara, Suda and Xiang. The six attained minima cover all primitive generators on the full domain and at orders at least 30. Kind `proof`, verification `lean-complete`. [Result](results/momihara-suda-xiang-sharp-bounds/README.md)
+
+Published the [Keating–Keleş transition classification](results/keating-keles-transitions/README.md) on the public main branch at [commit 40e4e75](https://github.com/Clowdyffs/verified-conjectures/commit/40e4e75fc0ac0c6da4c68143cd5a13335cac830b), exported from development commit 7f5f82ec30e7. A clean clone of the public commit passed the exact replay and Lean kernel verification in 42 seconds, including the order-100 headline maximum and all nine axiom audits. The [GitHub structural check](https://github.com/Clowdyffs/verified-conjectures/actions/runs/45552113339) passed. Status remains `ready` for the separate X announcement.
+
 Verified the positive-ratio transition problem of Keating and Keleş. The proof gives the sharp maximum and all maximizing matrices over the closed real box, including ties, for every order and every positive ratio. The order-five matrices refute the equality of upper-entry counts, and the permutation terms of every positive-ratio maximizer have a common sign. Kind `proof`, verification `lean-complete`. [Result](results/keating-keles-transitions/README.md)
 
 Cleared the positive-ratio transition classification for announcement. Solve commit `1fa1359902b8ade6c5f3b1d333a05fe9e85323e8`. The local release-format export passed its structural checks and the full exact and Lean replay from a fresh clone. All internal review findings are closed. [Result](results/keating-keles-transitions/README.md)

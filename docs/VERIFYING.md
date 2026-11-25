@@ -20,7 +20,7 @@ If you find a mismatch, please [report it](../CONTRIBUTING.md).
 ./verify.sh <slug>
 ```
 
-Requirements: Python 3.10 or newer, Git, and [elan](https://github.com/leanprover/elan). The entry's README lists running time and peak memory measured on a clean clone. The script exits nonzero if any step fails.
+Requirements: Python 3.10 or newer, Git, and [elan](https://github.com/leanprover/elan). For the sharp near-Hadamard entry, install python-flint 0.9.0 in the active Python environment or set `SHARP_FLINT_PYTHON` to a Python executable with that package. The entry's README lists running time and peak memory measured on a clean clone. The script exits nonzero if any step fails.
 
 Each `verify.sh` does the following.
 

@@ -23,17 +23,21 @@ Only finished work appears here. A result is listed after it meets every [solve 
 | **[Question 2 of Keating and Keleş (2020)](results/keating-keles-hessenberg/)**<br><sub>Section 6, Question 2</sub> | The proposed Hessenberg matrix attains the maximum at subdiagonal two | **True** | Lean, complete | 2026-11-25 | [Proof](results/keating-keles-hessenberg/PROOF.md) · [Lean statement](lean/Conjectures/KeatingKeles/Statement.lean) · [Audit](results/keating-keles-hessenberg/AUDIT.md) · [Replay](results/keating-keles-hessenberg/verify.sh) |
 | **[Keating and Keleş, upper Hessenberg determinant transition forms](results/keating-keles-transitions/)**<br><sub>Posed 2020 · Section 6, Question 1, for all positive parameters in Problem 2.4</sub> | Transition forms for maximum absolute upper Hessenberg determinants | **True** | Lean, complete | 2026-11-25 | [Proof](results/keating-keles-transitions/PROOF.md) · [Lean statement](lean/Conjectures/KeatingKelesTransitions/Statement.lean) · [Audit](results/keating-keles-transitions/AUDIT.md) · [Replay](results/keating-keles-transitions/verify.sh) |
 | **[Problem 7.1 of Momihara, Suda and Xiang (2022), four-fifths question](results/momihara-suda-xiang-determinant/)**<br><sub>Restated as Problem 15 of Egan, Kotsireas, London and Ó Catháin (2026)</sub> | The four-fifths bound holds for three near-Hadamard families | **True** | Lean, complete | 2026-11-25 | [Proof](results/momihara-suda-xiang-determinant/PROOF.md) · [Lean statement](lean/Conjectures/NearHadamard/Statement.lean) · [Audit](results/momihara-suda-xiang-determinant/AUDIT.md) · [Replay](results/momihara-suda-xiang-determinant/verify.sh) |
+| **[Problem 7.1 of Momihara, Suda and Xiang (2022), sharp uniform normalized lower bounds](results/momihara-suda-xiang-sharp-bounds/)**<br><sub>Problem 7.1, first sentence, with the normalization and second domain of its second sentence</sub> | Sharp normalized determinants in Classes (4), (5) and (6) | **True** | Lean, complete | 2026-11-25 | [Proof](results/momihara-suda-xiang-sharp-bounds/PROOF.md) · [Lean statement](lean/Conjectures/NearHadamardSharp/Statement.lean) · [Audit](results/momihara-suda-xiang-sharp-bounds/AUDIT.md) · [Replay](results/momihara-suda-xiang-sharp-bounds/verify.sh) |
 <!-- results:end -->
 
 The same index is available as [results.json](results.json).
 
 ## Check a result yourself
 
-Every entry is self-contained and replays from a clean clone.
+Replay from a clean clone of the collection. The sharp near-Hadamard replay imports the source-matrix checker in the four-fifths entry.
 
 ```sh
 git clone https://github.com/Clowdyffs/verified-conjectures
 cd verified-conjectures
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install python-flint==0.9.0  # needed for the sharp near-Hadamard entry
 ./verify.sh                       # every result, one at a time
 ./verify.sh <slug>                # one result, named by its folder in results/
 ```
